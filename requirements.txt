@@ -1,0 +1,29 @@
+# UI
+streamlit>=1.40
+streamlit-ace
+
+# Local AI (talks to the Ollama app on this PC)
+ollama
+
+# Speech to text (Whisper, runs on GPU)
+faster-whisper
+av<16                 # newer PyAV breaks faster-whisper 1.2.x
+nvidia-cublas-cu12
+nvidia-cudnn-cu12==9.*
+
+# PDF reading
+pymupdf
+
+# YouTube (download needs internet; processing is offline)
+yt-dlp
+youtube-transcript-api
+
+# Maths / matching / charts (also available to scripts in the Python Lab)
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+
+# Export
+markdown

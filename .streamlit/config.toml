@@ -1,0 +1,7 @@
+[server]
+# allow long lecture recordings / videos (MB)
+maxUploadSize = 4000
+maxMessageSize = 4000
+
+[browser]
+gatherUsageStats = false

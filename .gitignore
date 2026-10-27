@@ -1,0 +1,25 @@
+# Python environment and caches
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Downloaded AI models (large; re-downloaded by setup)
+models/
+
+# Your lectures, recordings, notes and script runs (private)
+data/
+
+# Generated test media and logs
+tests/samples/
+tests/results/*.log
+tests/results/results.json
+
+# Third-party lecture material used for testing
+moro01-08-ekf.pdf
+
+# Misc
+*.tmp
+*.testbackup
+.streamlit/secrets.toml
+Notes.txt
